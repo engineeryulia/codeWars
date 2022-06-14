@@ -18,10 +18,12 @@ describe("main test suite", () => {
     let expected = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
     expect(res).to.deep.eq(expected)
   })
-  it("test 17", () => {
+  it("test 7", () => {
     let a = 7
     let res = reverseSeq(a)
     let expected = [7, 6, 5, 4, 3, 2, 1]
     expect(res).to.deep.eq(expected)
   })
 })
+
+//npx mocha reversedSequence.js --reporter nyan репорт в форме животного
