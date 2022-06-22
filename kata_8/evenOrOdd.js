@@ -3,10 +3,9 @@
 
 const even_or_odd = (n) => {
   if (n % 2 === 0) {
-    return "Even"
+    return 'Even';
   } else {
-    return "Odd"
+    return 'Odd';
   }
-}
-
-console.log(even_or_odd(5))
+};
+console.log(even_or_odd(5));
